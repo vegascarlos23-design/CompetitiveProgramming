@@ -63,7 +63,7 @@ bool backtracking(int row, int col) {
         return backtracking(nextRow, nextCol);
     } 
     else {
-        for(int num = 1; num <= n*n; num++) {
+        fore(num,1,10) {
             if (check(num, row, col)) {
                 G[row][col] = num;
                 Rows[row][num] = 1;
